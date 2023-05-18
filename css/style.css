@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Nerko+One&display=swap");
+
+/* =====general====== */
+body {
+  background-color: #272b30;
+  font-family: "Nerko One", cursive;
+}
+.blue-color {
+  color: #0d6efd;
+}
+/* ====== start navbar======= */
+#nav-bar {
+  background: url("../images/wraper.png") center no-repeat;
+  background-size: cover;
+  padding: 70px 0px;
+}
+#nav-bar nav .container {
+  background-color: #3a497b;
+}
+#nav-bar nav a {
+  color: white;
+}
+#nav-bar .logo {
+  width: 50px;
+}
+#nav-bar nav .nav-link {
+  transition: color 1s;
+}
+#nav-bar nav .active,
+#nav-bar nav .nav-link:hover,
+#nav-bar nav .nav-link:focus {
+  color: #0d6efd;
+}
+/* ====== end navbar======= */
+
+/* ========start main-content======== */
+#main-content .item {
+  cursor: pointer;
+  overflow: hidden;
+  transition: transform 0.5s;
+}
+#main-content .item:hover {
+  transform: scale(1.1);
+}
+#main-content .item img {
+  height: 200px;
+}
+/* ========end main-content========== */
+
+/* ========start loading======== */
+.loading {
+  background-color: #272b30b2;
+  display: flex;
+}
+/* ========End loading ======== */
+
+/* ========start details======== */
+#details {
+  background-color: #27282b;
+  color: #3a497b;
+}
+#details .item span {
+  padding: 5px;
+  border-radius: 30%;
+  background-color: #0d6efd;
+}
+#details .colse-icon {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  cursor: pointer;
+}
+/* ========End details ======== */
